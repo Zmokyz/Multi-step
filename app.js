@@ -4,6 +4,7 @@ var Form3 = document.getElementById("form_3");
 
 var Next1 = document.getElementById("next1");
 var Next2 = document.getElementById("next2");
+var Next3 = document.getElementById("buttonF3")
 var option1 = document.getElementById("option_1");
 var option2 = document.getElementById("option_2");
 var option3 = document.getElementById("option_3");
@@ -54,6 +55,10 @@ option2.addEventListener('click', () => {
 option3.addEventListener('click', () => {
     option3.classList.toggle('active');
 });
+
+Next3.addEventListener("click",( =>{
+    alert("Success")
+}));
 
 const CheckActiveClass = (activeOptions) => {
     const thirdFormList = document.getElementById('Options_list');
