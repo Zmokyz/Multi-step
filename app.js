@@ -56,9 +56,9 @@ option3.addEventListener('click', () => {
     option3.classList.toggle('active');
 });
 
-Next3.addEventListener("click",( =>{
+Next3.addEventListener("click",() => {
     alert("Success")
-}));
+});
 
 const CheckActiveClass = (activeOptions) => {
     const thirdFormList = document.getElementById('Options_list');
