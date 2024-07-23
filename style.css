@@ -41,8 +41,8 @@ li {
     margin-bottom: 0;
     border: 1px solid #4D5562;
     border-radius: 10px;
-    width: 50vh;
-    height: 40vh;
+    max-width: 50vh;
+    min-height: 40vh;
     position: relative;
     padding: 4vh;
     overflow: hidden;
@@ -149,4 +149,26 @@ button:active {
 
 .progressBar {
     min-width: 6vh;
+}
+
+@media screen and (max-width: 480px ) {
+    
+    .Main_container {
+        min-width: 10vh;
+        height: 70vh;
+    }
+
+    input {
+        max-width: 50dvh;
+        max-height: 20dvh;
+    }
+
+    #form_2 h1{
+        font-size: 14px;
+    }
+    .option {
+        max-width: 50dvh;
+        height: 5dvh;
+        padding: 8px;
+    }
 }
