@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: "Inter";
+    color: white;
+}
+
+body {
+    background-color: #121826;
+}
+
+h1{
+    padding-bottom: 5%;
+}
+
+.radial{
+    position: fixed;
+
+}
+
+#radial_1 {
+    top: -35vh;
+    right: 70%;
+}
+
+#radial_2 {
+    bottom: -43vh;
+    left: 74%;
+}
+
+.Main_container {
+    background-color: #212936 ;
+    margin: 15% auto;
+    margin-bottom: 0;
+    border: 1px solid #4D5562;
+    border-radius: 10px;
+    width: 50vh;
+    height: 40vh;
+    position: relative;
+    padding: 4vh;
+    overflow: hidden;
+}
+
+.forms {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 0.5s;
+}
+
+p{
+    margin-bottom: 1vh;
+    font-size: 14px;
+}
+
+input {
+    height: 3vh;
+    width: 45vh;
+    border-radius: 10px;
+    border:1px solid #4D5562;
+    background-color: #212936;
+    padding: 1vh;
+    margin-bottom: 5vh;
+}
+
+button {
+    width: 16vh;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: #652CD1;
+    margin-left: 32%;
+}
+
+button:active {
+    background-color: #845EEE;
+}
+
+#form_2{
+    left: 650px;
+}
+
+#form_3{
+    left: 650px;
+}
+
+.option {
+    align-content: center;
+    padding: 20px;
+    border: 1px solid #4D5562;
+    height: 2vh;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: #394150;
+    transition: 0.5s;
+}
+
+.progressDiv {
+    left: 45%;
+    top: 2vh;
+    position: relative;
+    height: 5vh;
+    width: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#steps_text{
+    padding: 10px;
+}
+
+.progressCircle{
+    margin-top: 40px;
+    height: 20px;
+    width: auto;
+
+}
+
+.active {
+    background-color: #652CD1;
+    border: 1px solid #652CD1;
+}
+
+.Form3container{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.Show_p{
+    margin-left:1%;
+}
+
+.const_text {
+    color: #A1A1A9;
+}
+
+li {
+    font-size: 14px;
+    margin-left: 3%;
+}
+
+#buttonF3{
+    margin-top: 20%;
+}

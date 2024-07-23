@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>MultiStep-Form</title>
+</head>
+<body>
+    <img class="radial" id="radial_1" src="resorces/blur-radial.svg" alt="">
+    <img class="radial" id="radial_2" src="resorces/blur-radial.svg" alt="">
+
+    <div class="Main_container">
+        <form id="form_1"  class="forms">
+            <h1>Register</h1>
+            <p>Name</p>
+            <input id="input_name" type="text" placeholder="enter your name">
+            <p>Email</p>
+            <input id="input_email" type="email" placeholder="example@gmail.com" >
+            <button type="button" id="next1">Continue</button>
+        </form>
+
+        <form id="form_2" class="forms">
+            <h1>Which topics you are interested in?</h1>
+            <div id="option_1" class="option">Software Development</div>
+            <div id="option_2" class="option">User Experience</div>
+            <div id="option_3" class="option">Graphic Design</div>
+            <button type="button" id="next2">Continue</button>
+        </form>
+        <form id="form_3" class="forms">
+            <h1>Summary</h1>
+            <div class="Form3container">
+                <p class="const_text">Name:</p>
+                <p class="Show_p" id="Name_user"></p>
+            </div>
+            <div class="Form3container">
+                <p class="const_text">Email:</p>
+                <p class="Show_p" id="Email_user"></p>
+            </div>
+            <p class="const_text">Topics:</p>
+            <ul id="Options_list"></ul>
+            </ul>
+            <button id="buttonF3" >Confirm</button>
+        </form>
+    </div>
+    <div class="progressDiv">
+        <p id="steps_text">Step 1 of 3</p>
+        <div class="progressBar">
+            <input id="step_1" class="progressCircle" type="radio"/>
+            <input id="step_2" class="progressCircle" type="radio"/>
+            <input id="step_3" class="progressCircle" type="radio"/>
+        </div>   
+    </div>   
+    <script src="app.js"></script>
+</body>
+</html>
